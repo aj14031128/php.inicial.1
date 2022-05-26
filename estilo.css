@@ -1,0 +1,40 @@
+.Contenedor{background-color: rgb(50, 196, 147);
+    display: flex;
+justify-content: center;
+align-items: center;
+align-content: center;
+flex-direction: row;
+border-radius: 20px;
+width: 80%;
+margin-inline: 10%;
+height: 50%;
+}
+
+.Producto{height: 150px;
+    width: 150px;
+background-color: rgb(84, 106, 179);
+margin: 5%;
+text-align: center;
+display: flex;
+align-items: center;
+align-content: center;
+justify-content: center;
+flex-direction: column;
+border-radius: 15%;
+color: white;}
+
+.Producto:hover{background-color: rgb(177, 66, 66);
+    color:bisque;
+    scale: (2,2);
+}
+
+.Nombre{font-style:oblique;}
+
+.Precio{font-style:oblique;}
+
+
+.PrecioUS{font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+color: red;}
+
+
+body{background-color: rgb(189, 189, 231);}
